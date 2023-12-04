@@ -21,7 +21,7 @@ During this activity, you will test your CSS Flexbox skills by building a webpag
 
 * Which `div` is the parent flex container? Which `div` is a child of the parent?
 
-  ![divs](images/divs.png)
+  ![divs](images/dpropivs.png)
 
 * Add a selector that targets the nav class. This element will be the flex container for the navigation component of your layout.
 
