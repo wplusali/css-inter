@@ -3,12 +3,52 @@ body {
 }
 
 /* Grid CSS */
-
+#heroGrid { /* Hero Grid CSS Code */
+  margin: 0px 5%;
+  display: grid;
+  min-height: 500px;
+  height: 70vh;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 75% 25%;
+  background-color: aqua
+}
 
 /* Category Grid CSS */
+#heroGrid #featuredProduct {
+  grid-area: 1 / 1 / 3 / 1;
+  background-image: url('../images/furniture1.png');
+}
 
+#heroGrid #secondaryProduct {
+  grid-area: 1 / 2 / 1 / 2;
+  background-image: url('../images/couch.png');
+}
 
+#heroGrid #CTA {
+  grid-area: 2 / 2 / 2 / 2;
+  background-image: url('../images/woodbg.png');
+  justify-content: 0px 5%;
+  cursor: pointer;
+}
 
+.heroGridArea {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+#headline {
+  border-bottom: 5px solid #FF6200;
+  background-color: rgba(255,255,255,0.8);
+  position: absolute;
+  top: 100px;
+  right: -50px;
+  z-index: 1;
+  padding: 25px;
+}
 
 /* Navigation CSS */
 /* CHECK OUT THIS CODE BELOW IF YOU WANT TO GET A REFRESHER ON FLEX */
@@ -50,20 +90,22 @@ body {
 
 h2 {
   font-size: 60px;
-  margin: 0px 0px;
+  margin: 25px;
   color: #FF6200;
 }
 
 h3 {
   font-size: 32px;
   font-weight: 300;
-  margin: 0px 0px;
+  margin: 25px;
 }
 
 h4 {
   color: white;
   font-weight: 400;
   font-size: 22px;
+  padding-left: 25px;
+  margin-right: 50px;
 }
 
 
@@ -71,6 +113,6 @@ h4 {
   max-width: 350px;
   font-size: 16px;
   font-weight: 300;
-  margin: 0px 0px;
-  color: #636364;
+  margin: 25px;
+  color: #474747;
 }
