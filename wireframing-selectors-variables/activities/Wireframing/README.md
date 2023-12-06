@@ -16,6 +16,11 @@ The following image shows a wireframe that depicts the web application's appeara
 
    ![Google Slide tools outlined in red.](./images/02-google-slides-tool-highlight.png)
 
+## Completed Wireframe from Google Doc ##
+
+
+[Screenshot of completed wireframe.](./Images/wireframe-from-google-doc.jpg)
+
 ### 🏆 Bonus
 
 If you have completed the activity and want to further your knowledge, work through the following challenge with your partner:
