@@ -1,3 +1,8 @@
+:root {
+  --main-background: #4a9eed;
+  --main-border-radius: 50px;
+}
+
 body {
   font-size: 16px;
   display: flex;
@@ -19,7 +24,7 @@ h2 {
 header {
   padding: 40px;
   text-align: center;
-  background: #13293d;
+  background: var(--main-background);
   color: #fff;
 }
 
@@ -49,7 +54,7 @@ footer {
   bottom: 0;
   padding: 20px;
   text-align: center;
-  background: #13293d;
+  background: var(--main-background);
   color: #fff;
   margin-top: auto;
 }
@@ -66,7 +71,7 @@ footer {
 .card {
   border-style: solid;
   border-width: 1px;
-  border-radius: 50px;
+  border-radius: var(--main-border-radius);
   padding: 10px;
   flex: 0 0 300px;
   transform: rotate(8deg);
